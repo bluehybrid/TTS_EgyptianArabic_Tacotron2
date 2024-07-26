@@ -1,0 +1,21 @@
+
+# restore_model: ''
+restore_model: ./pretrained/tacotron2_ar_adv.pth
+# restore_model: ./checkpoints/exp0/states.pth
+
+log_dir: logs/exp1
+checkpoint_dir: checkpoints/exp1
+
+train_wavs_path: /home/drmostafa/DataMasry/wav_new
+train_labels: ./data/train_phon.txt
+
+test_wavs_path: /home/drmostafa/DataMasry/wav_test_new
+test_labels: ./data/test_phon.txt
+
+balanced_sampling: False
+sampler_weights_file: ./data/sampler/sampler_weights
+
+cache_dataset: False
+
+n_save_states_iter: 10
+n_save_backup_iter: 1000

@@ -1,0 +1,20 @@
+# training
+epochs: 1000
+decoder_max_step: 3000
+
+random_seed: False
+
+batch_size: 32
+learning_rate: 1.0e-3
+weight_decay: 1.0e-6
+grad_clip_thresh: 1.0
+
+cache_dataset: True
+use_cuda_if_available: True
+
+balanced_sampling: False
+
+# vocoder
+vocoder_state_path: /home/drmostafa/hifigan-finetune (4)/hifigan-finetune/checkpoints/aschammad-v1/ckpt_500.pth
+vocoder_config_path: pretrained/hifigan-asc-v1/config.json
+
