@@ -23,7 +23,7 @@ Required packages:
 
 Download the pretrained weights for the Tacotron2 model for Egyptian Arabic (https://drive.google.com/file/d/1etruUB2hNsYfvn5_zsDrQM6uVJW62u8u/view?usp=drive_link) then put it in pretrained folder
 
-This repo includes the diacritization model Camel Tools (https://github.com/CAMeL-Lab/camel_tools)
+We used a diacritization model from Camel Tools (https://github.com/CAMeL-Lab/camel_tools) to diacritize Egyptian Arabic.
 
 Download the [HiFi-GAN vocoder](https://github.com/jik876/hifi-gan) weights ([link](https://drive.google.com/u/0/uc?id=1zSYYnJFS-gQox-IeI71hVY-fdPysxuFK&export=download)). Either put them into `pretrained/hifigan-asc-v1` or edit the following lines in `configs/basic.yaml`.
 
