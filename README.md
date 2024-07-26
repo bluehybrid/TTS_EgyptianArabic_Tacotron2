@@ -21,7 +21,7 @@ Required packages:
 
 
 
-Download the pretrained weights for the Tacotron2 model for Egyptian Arabic (https://drive.google.com/u/0/uc?id=1GCu-ZAcfJuT5qfzlKItcNqtuVNa7CNy9&export=download) then put it in pretrained folder
+Download the pretrained weights for the Tacotron2 model for Egyptian Arabic (https://drive.google.com/file/d/1etruUB2hNsYfvn5_zsDrQM6uVJW62u8u/view?usp=drive_link) then put it in pretrained folder
 
 This repo includes the diacritization model Camel Tools (https://github.com/CAMeL-Lab/camel_tools)
 
